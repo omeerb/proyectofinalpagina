@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionE-Commerce - Tienda Virtual de Ropa</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>FashionE-Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#" id="cart-btn">Carrito (<span id="cart-count">0</span>)</a></li>
+                <li><a href="login.html">Salir de sesion</a></li>
+                <li>
+                    <input type="text" id="search-input" placeholder="Buscar...">
+                    <button id="search-btn">Buscar</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="product-container">
+        <!-- Contenido principal de la tienda -->
+    </main>
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <div id="cart-items">
+                <!-- Lista de elementos del carrito -->
+            </div>
+            <button id="checkout-btn">Pagar</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 FashionE-Commerce. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
